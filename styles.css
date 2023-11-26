@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+    background-image: url("images/caba.jpg");
+}
+
+#visit-text {
+    background-color: #151c34;
+    padding: 15 25 15 25;
+    font-size: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#surprise-text {
+    background-color: #4c5365;
+    padding: 15 40 15 40;
+    font-size: 27px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    border-radius: 10px;
+
+}
+
+.activities-title {
+    background-color: #a1b6f8;
+    margin: 0;
+    border-top: 30px solid #a1b6f8;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    width: auto;
+    height: 370px;
+    color: rgb(45, 55, 79);
+    background: linear-gradient(#a1b6f8,#c7e1fc);
+}
+
+.activity-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.guide-section {
+    display: flex;
+    height: 400px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#guide-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffef88;
+    border-bottom: 10px solid #843511;
+    border-radius: 10px;
+    width: 410px;
+    height: 330px;
+    font-size: 16px;
+
+}
+
+#guide-picture {
+    width: 200px;
+    height: 250px;
+    margin: 40 5 0 15;
+    border-radius: 5px;
+}
+
+#guide-description {
+    display: flex;
+    margin: 20 5 20 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: black;
+}
+
+#scrimba-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7e1fc;
+    height: 100px;
+}
+
